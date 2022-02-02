@@ -1,0 +1,9 @@
+source ~/.vimrc
+
+nnoremap <CR> o<ESC>
+nnoremap <C-CR> O<ESC>
+
+nmap gD :action GotoImplementation<CR>
+
+set rnu
+set nu

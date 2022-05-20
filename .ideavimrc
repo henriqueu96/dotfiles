@@ -1,9 +1,16 @@
-source ~/.vimrc
+source ~/.vim-commons
 
 nnoremap <CR> o<ESC>
 nnoremap <C-CR> O<ESC>
 
 nmap gD :action GotoImplementation<CR>
 
-set rnu
-set nu
+" Highlighted yank
+set highlightedyank
+
+if !exists('##TextYankPost')
+  nmap y <Plug>(highlightedyank)
+  xmap y <Plug>(highlightedyank)
+  omap y <Plug>(highlightedyank)
+endif
+

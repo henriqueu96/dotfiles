@@ -15,3 +15,9 @@ ___
 - Alterar no terminal para a fonte ````Caskaydia - NF````
 - Instalar o Oh-My-Posh  
 ````winget install oh-my-posh````
+
+
+### PoshGit
+
+````choco install poshgit````
+

@@ -12,3 +12,5 @@ New-Alias -name "rider" $ScriptsFolder\rider.cmd
 New-Alias -name "env" $ScriptsFolder\env.ps1
 New-Alias -name "touch" $ScriptsFolder\touch.ps1
 New-Alias -name "sudo" $ScriptsFolder\sudo.ps1
+
+Import-Module posh-git

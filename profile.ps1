@@ -1,5 +1,5 @@
 # iniciando oh-my-posh
-oh-my-posh init pwsh --config C:\Users\henri\AppData\Local\Programs\oh-my-posh\themes\aliens.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config C:\Users\henri\AppData\Local\Programs\oh-my-posh\themes\bubblesextra.omp.json | Invoke-Expression
 
 # alterando autocomplete para similar ao shell
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete

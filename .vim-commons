@@ -1,0 +1,8 @@
+" Intagrating clipboard
+set clipboard+=unnamed
+
+" Configuring Lines
+set rnu
+set nu
+
+nnoremap S diw"0P

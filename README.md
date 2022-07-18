@@ -17,7 +17,11 @@ ___
 ````winget install oh-my-posh````
 
 
-### PoshGit
+### Instalação PoshGit
 
 ````choco install poshgit````
 
+### Instalação GOW
+
+Baixar do repositório 
+[Download](https://github.com/bmatzelle/gow)
